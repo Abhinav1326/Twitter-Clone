@@ -1,0 +1,12 @@
+.feed {
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    width: 100vw;
+    padding: 0 100px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
